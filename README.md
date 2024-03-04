@@ -6,16 +6,22 @@ library
 This project explores the applications of LLMs. It uses "library (bibliotheca)" as the context. 
 
 
-<h2><details open>
-  <summary>Update Notes</summary></h2>
-
+<details>
+  <summary>
+    <h2>
+      Update Notes
+    </h2>
+  </summary>
 - [x] Setup project structure
-
 </details>
 
 
-<h2><details open>
-  <summary>How to use?</summary></h2>
+<details>
+  <summary>
+    <h2>
+      How to use?
+    </h2>
+  </summary>
   
 #### 1. Download this repo
 ```bash
@@ -45,12 +51,15 @@ jupyter lab
  * Go to `notebooks/`
  * Open a notebook
  * Select the kernel `library`
-
 </details>
 
 
-<h2><details open>
-  <summary>Project Organization</summary></h2>
+<details>
+  <summary>
+    <h2>
+      Project Organization
+    </h2>
+  </summary>
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -75,8 +84,9 @@ jupyter lab
     ├── src/                <- Source code for use in this project.
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
 </details>
+
+
 
 
 --------
