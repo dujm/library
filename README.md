@@ -6,23 +6,17 @@ library
 This project explores the applications of LLMs. It uses "library (bibliotheca)" as the context. 
 
 
+## Update Notes
+
 <details>
-  <summary>
-    <h2>
-      Update Notes
-    </h2>
-  </summary>
+  <summary> see details </summary>
 - [x] Setup project structure
 </details>
 
-
+## How to use?
 <details>
-  <summary>
-    <h2>
-      How to use?
-    </h2>
-  </summary>
-  
+  <summary> see details </summary>
+
 #### 1. Download this repo
 ```bash
 git clone https://github.com/dujm/library.git
@@ -53,13 +47,9 @@ jupyter lab
  * Select the kernel `library`
 </details>
 
-
+## Project Organization
 <details>
-  <summary>
-    <h2>
-      Project Organization
-    </h2>
-  </summary>
+  <summary> see details </summary>
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -87,10 +77,8 @@ jupyter lab
 </details>
 
 
+---
+<br>
 
+#### [Go to Top](#TOP)
 
---------
-
-<p><small>Project organization based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-
-</details>
