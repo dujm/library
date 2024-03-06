@@ -104,5 +104,14 @@ ollama pull llama2
 
 <br>
 
+## Thanks to
+<details>
+  <summary> click to see details </summary>
+
+ * [Project Gutenberg](https://www.gutenberg.org/)
+ * [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
+</details>
+
+
 #### [Go to Top](#TOP)
 
