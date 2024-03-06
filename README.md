@@ -3,27 +3,33 @@ library
 
 [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#experimental)
 
-This project explores the applications of LLMs. It uses "library (bibliotheca)" as the context. 
+This project explores the applications of LLMs. It uses a "library (bibliotheca)" as the context. 
 
 
-## Update Notes
-
+## I. Prerequisite
 <details>
-  <summary> see details </summary>
-- [x] Setup project structure
+  <summary> click to see details </summary>
+
+ * Python 11
 </details>
 
-## How to use?
+## II. How to use this repo?
 <details>
-  <summary> see details </summary>
+  <summary> click to see details </summary>
 
 #### 1. Download this repo
 ```bash
 git clone https://github.com/dujm/library.git
+
+# remove my git directory
+rm -rf .git/
+
+# create a new git repository if you need
+#git init
 ```
 #### 2. Create a conda environment
 ```bash
-# create an env with a Python version higher than Python 3.10 (here I create an env named "library" with Python 3.11)
+# create an env with Python 11 (see file `environments.yml`)
 conda env create --name library --file=environments.yml
 
 # activate env
@@ -41,20 +47,38 @@ ipython kernel install --user --name=library
 jupyter lab
 ```
 
-#### 4. Run notebooks
+#### 4. Set up Ollama
+ * Below is for MacOS. Find more instructions on [Ollama](https://github.com/ollama/ollama) if you use other operating systems.
+
+##### a. First-time using Ollma (for Mac users)
+ * [Download file from Ollama website](https://ollama.ai/download)
+ * Open Ollama app
+ * Select a model from [Model library](https://github.com/ollama/ollama). 
+ * I selected`llama2` model. 
+ * Download them in the terminal
+```sh
+# pull llama2 model
+ollama pull llama2
+```
+
+##### b. For future use of Ollama 
+ * Open Ollama app
+
+
+#### 5. Run notebooks
  * Go to `notebooks/`
  * Open a notebook
  * Select the kernel `library`
 </details>
 
-## Project Organization
+## III. Project Organization
 <details>
-  <summary> see details </summary>
+  <summary> click to see details </summary>
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data/
+    ├── data/              <- Data directory
     │
     ├── docs/               <- A default Sphinx project; see sphinx-doc.org for details
     │
@@ -77,7 +101,7 @@ jupyter lab
 </details>
 
 
----
+
 <br>
 
 #### [Go to Top](#TOP)
