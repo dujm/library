@@ -27,7 +27,7 @@ rm -rf .git/
 # create a new git repository if you need
 #git init
 ```
-#### 2. Create a conda environment
+#### 2. Create a conda environment (names as e.g.`library`) 
 ```bash
 # create an env with Python 11 (see file `environments.yml`)
 conda env create --name library --file=environments.yml
@@ -80,14 +80,14 @@ ollama pull llama2
     ├── README.md          <- The top-level README for developers using this project.
     ├── data/              <- Data directory
     │
-    ├── docs/               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs/              <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── models/             <- Trained and serialized models, model predictions, or model summaries
+    ├── models/            <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks/          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    ├── notebooks/         <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, 
     │
-    ├── reports/            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    ├── reports/           <- Generated analysis as HTML, PDF, LaTeX, etc.
     │
     ├── requirements.txt   <- The requirements file for reproducing the Python environment 
     │
@@ -95,7 +95,7 @@ ollama pull llama2
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     │
-    ├── src/                <- Source code for use in this project.
+    ├── src/               <- Source code for use in this project.
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 </details>
