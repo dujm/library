@@ -27,7 +27,7 @@ rm -rf .git/
 # create a new git repository if you need
 #git init
 ```
-#### 2. Create a conda environment (names as e.g.`library`) 
+#### 2. Create a conda environment (named as e.g.`library`) 
 ```bash
 # create an env with Python 11 (see file `environments.yml`)
 conda env create --name library --file=environments.yml
@@ -55,7 +55,7 @@ jupyter lab
  * Open Ollama app
  * Select a model from [Model library](https://github.com/ollama/ollama). 
  * I selected`llama2` model. 
- * Download them in the terminal
+ * Download it in the terminal
 ```sh
 # pull llama2 model
 ollama pull llama2
@@ -103,6 +103,15 @@ ollama pull llama2
 
 
 <br>
+
+## Thanks to
+<details>
+  <summary> click to see details </summary>
+
+ * [Project Gutenberg](https://www.gutenberg.org/)
+ * [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
+</details>
+
 
 #### [Go to Top](#TOP)
 
