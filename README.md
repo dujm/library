@@ -1,7 +1,9 @@
 library
 ==============================
 
-[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#experimental)
+[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#experimental) 
+
+
 
 This project explores the applications of LLMs. It uses a "library (bibliotheca)" as the context. 
 
@@ -110,8 +112,16 @@ ollama pull llama2
 
  * [Project Gutenberg](https://www.gutenberg.org/)
  * [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
+ * [Embeddings and Vector Databases With ChromaDB](https://realpython.com/chromadb-vector-database/)
+ * [GIFs For Readme](https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/blob/main/README.md)
+
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="500">
+<br><br>
+
 </details>
 
-
-#### [Go to Top](#TOP)
+#### [Top](#TOP)
 
