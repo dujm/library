@@ -65,6 +65,14 @@ ollama pull llama2
 
 ##### b. For future use of Ollama 
  * Open Ollama app
+ * Or run the bash script in the terminal
+
+```sh
+bash scripts/ollama_serve.sh
+
+# if you want to stop Ollma in the Mac terminal 
+pkill ollama
+```
 
 
 #### 5. Run notebooks
@@ -113,6 +121,7 @@ ollama pull llama2
  * [Project Gutenberg](https://www.gutenberg.org/)
  * [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
  * [Embeddings and Vector Databases With ChromaDB](https://realpython.com/chromadb-vector-database/)
+ * [autogen-ollama/entrypoint](https://github.com/ScottLL/autogen-ollama/blob/main/entrypoint.sh)
  * [GIFs For Readme](https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/blob/main/README.md)
 
 
