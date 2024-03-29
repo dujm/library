@@ -123,6 +123,7 @@ pkill ollama
  * [Embeddings and Vector Databases With ChromaDB](https://realpython.com/chromadb-vector-database/)
  * [autogen-ollama/entrypoint](https://github.com/ScottLL/autogen-ollama/blob/main/entrypoint.sh)
  * [Using RetrieveChat for Retrieve Augmented Code Generation and Question Answering](https://github.com/microsoft/autogen/blob/main/notebook/agentchat_RetrieveChat.ipynb)
+ * [Langroid](https://github.com/langroid/langroid)
  * [GIFs For Readme](https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/blob/main/README.md)
 
 
