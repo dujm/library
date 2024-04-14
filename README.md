@@ -124,6 +124,7 @@ pkill ollama
  * [Chromadb](https://realpython.com/chromadb-vector-database/)
  * [Langroid](https://github.com/langroid/langroid)
  * [Two Agent Debates with Tools](https://github.com/langchain-ai/langchain/blob/master/cookbook/two_agent_debate_tools.ipynb)
+ * [LangChain AI Image Recognition](https://github.com/sugarforever/LangChain-Tutorials/blob/main/LangChain_AI_Image_Recognition.ipynb)
 
 
 #### B
