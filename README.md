@@ -31,15 +31,17 @@ rm -rf .git/
 ```
 #### 2. Create a conda environment (named as e.g.`library`) 
 ```bash
-# create an env with Python 11
-conda create -n library python=3.11 ipython
+# create an env with Python 11 (see file `environment.yml`)
+conda env create --name library --file=environment.yml
 
 # activate env
 conda activate library
+```
+
+#### 3. Add conda environment to your jupyter lab (or jupyter notebook)
 
 ```bash
 # add conda environment to jupyter lab
-conda install ipykernel
 ipython kernel install --user --name=library
 
 # open jupyter lab
