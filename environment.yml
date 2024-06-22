@@ -21,8 +21,11 @@ dependencies:
       - aiohttp==3.9.5
       - aiosignal==1.3.1
       - alabaster==0.7.16
+      - alembic==1.13.1
+      - annotated-types==0.7.0
       - anthropic==0.25.6
       - anyio==4.3.0
+      - appdirs==1.4.4
       - appnope==0.1.4
       - argon2-cffi==23.1.0
       - argon2-cffi-bindings==21.2.0
@@ -40,6 +43,9 @@ dependencies:
       - beautifulsoup4==4.12.3
       - black==24.4.0
       - bleach==6.1.0
+      - boto3==1.34.131
+      - botocore==1.34.131
+      - brotli==1.1.0
       - bs4==0.0.1
       - build==1.2.1
       - cachetools==5.3.3
@@ -51,7 +57,7 @@ dependencies:
       - chroma-hnswlib==0.7.3
       - chromadb==0.4.24
       - click==8.1.7
-      - cohere==5.3.2
+      - cohere==5.5.8
       - colorama==0.4.6
       - coloredlogs==15.0.1
       - colorlog==6.8.2
@@ -60,6 +66,8 @@ dependencies:
       - contourpy==1.2.1
       - courlan==1.0.0
       - coverage==7.4.3
+      - crewai==0.32.0
+      - crewai-tools==0.3.0
       - cryptography==42.0.5
       - cssselect==1.2.0
       - curl-cffi==0.7.0b4
@@ -77,9 +85,10 @@ dependencies:
       - distro==1.9.0
       - docker==7.0.0
       - docstring-inheritance==2.2.0
-      - docstring-parser==0.15
+      - docstring-parser==0.16
       - docutils==0.20.1
-      - duckduckgo-search==4.4
+      - docx2txt==0.8
+      - embedchain==0.1.109
       - executing==0.8.3
       - faker==18.13.0
       - fakeredis==2.22.0
@@ -97,13 +106,26 @@ dependencies:
       - fqdn==1.5.1
       - frozenlist==1.4.1
       - fsspec==2024.3.1
+      - gitdb==4.0.11
+      - gitpython==3.1.43
       - google-api-core==2.18.0
       - google-api-python-client==2.126.0
       - google-auth==2.29.0
       - google-auth-httplib2==0.2.0
+      - google-cloud-aiplatform==1.56.0
+      - google-cloud-bigquery==3.25.0
+      - google-cloud-core==2.4.1
+      - google-cloud-resource-manager==1.12.3
+      - google-cloud-storage==2.17.0
+      - google-crc32c==1.5.0
+      - google-resumable-media==2.7.1
       - googleapis-common-protos==1.63.0
+      - gptcache==0.1.43
       - greenlet==3.0.3
+      - groq==0.9.0
+      - grpc-google-iam-v1==0.13.0
       - grpcio==1.62.2
+      - grpcio-status==1.62.2
       - grpcio-tools==1.62.2
       - h11==0.14.0
       - h2==4.1.0
@@ -126,6 +148,7 @@ dependencies:
       - importlib-resources==6.4.0
       - incremental==22.10.0
       - iniconfig==2.0.0
+      - instructor==1.3.3
       - ipykernel==6.29.4
       - ipython==8.20.0
       - ipywidgets==8.1.2
@@ -135,11 +158,13 @@ dependencies:
       - jedi==0.18.1
       - jieba3k==0.35.1
       - jinja2==3.1.3
+      - jiter==0.4.2
       - jmespath==1.0.1
       - joblib==1.4.0
       - json5==0.9.25
       - jsonpatch==1.33
       - jsonpointer==2.4
+      - jsonref==1.1.0
       - jsonschema==4.21.1
       - jsonschema-specifications==2023.12.1
       - jupyter==1.0.0
@@ -157,12 +182,14 @@ dependencies:
       - justext==3.0.0
       - kiwisolver==1.4.5
       - kubernetes==29.0.0
-      - lancedb==0.6.8
+      - lancedb==0.5.7
       - langchain==0.1.13
       - langchain-anthropic==0.1.4
-      - langchain-cohere==0.1.0
+      - langchain-cohere==0.1.5
       - langchain-community==0.0.29
-      - langchain-core==0.1.45
+      - langchain-core==0.1.52
+      - langchain-groq==0.1.5
+      - langchain-openai==0.1.7
       - langchain-text-splitters==0.0.1
       - langcodes==3.3.0
       - langroid==0.1.225
@@ -177,6 +204,7 @@ dependencies:
       - llamaindex-py-client==0.1.18
       - log-symbols==0.0.14
       - lxml==4.9.4
+      - mako==1.3.5
       - markdown-it-py==3.0.0
       - markdownify==0.12.1
       - markupsafe==2.1.5
@@ -196,6 +224,7 @@ dependencies:
       - monotonic==1.6
       - mpmath==1.3.0
       - multidict==6.0.5
+      - mutagen==1.47.0
       - mypy==1.9.0
       - mypy-extensions==1.0.0
       - nbclient==0.10.0
@@ -211,22 +240,25 @@ dependencies:
       - numpy==1.26.4
       - oauthlib==3.2.2
       - onnxruntime==1.16.1
-      - openai==1.23.2
-      - opentelemetry-api==1.24.0
-      - opentelemetry-exporter-otlp-proto-common==1.24.0
-      - opentelemetry-exporter-otlp-proto-grpc==1.24.0
-      - opentelemetry-instrumentation==0.45b0
-      - opentelemetry-instrumentation-asgi==0.45b0
-      - opentelemetry-instrumentation-fastapi==0.45b0
-      - opentelemetry-proto==1.24.0
-      - opentelemetry-sdk==1.24.0
-      - opentelemetry-semantic-conventions==0.45b0
-      - opentelemetry-util-http==0.45b0
+      - openai==1.35.3
+      - opentelemetry-api==1.25.0
+      - opentelemetry-exporter-otlp-proto-common==1.25.0
+      - opentelemetry-exporter-otlp-proto-grpc==1.25.0
+      - opentelemetry-exporter-otlp-proto-http==1.25.0
+      - opentelemetry-instrumentation==0.46b0
+      - opentelemetry-instrumentation-asgi==0.46b0
+      - opentelemetry-instrumentation-fastapi==0.46b0
+      - opentelemetry-proto==1.25.0
+      - opentelemetry-sdk==1.25.0
+      - opentelemetry-semantic-conventions==0.46b0
+      - opentelemetry-util-http==0.46b0
       - orjson==3.10.1
+      - outcome==1.3.0.post0
       - overrides==7.7.0
       - packaging==23.2
       - pandas==2.0.3
       - pandocfilters==1.5.1
+      - parameterized==0.9.0
       - parsel==1.9.1
       - parso==0.8.4
       - pathspec==0.12.1
@@ -258,22 +290,27 @@ dependencies:
       - pyautogen==0.2.17
       - pycodestyle==2.11.1
       - pycparser==2.22
-      - pydantic==1.10.13
+      - pycryptodomex==3.20.0
+      - pydantic==2.7.4
+      - pydantic-core==2.18.4
       - pydispatcher==2.0.7
       - pyflakes==3.1.0
       - pygithub==1.59.1
       - pygments==2.17.2
       - pyjwt==2.8.0
-      - pylance==0.10.10
+      - pylance==0.9.18
       - pymupdf==1.24.2
       - pymupdfb==1.24.1
       - pynacl==1.5.0
       - pyopenssl==24.1.0
       - pyparsing==3.1.2
-      - pypdf==3.17.4
+      - pypdf==4.2.0
       - pypdfium2==4.28.0
       - pypika==0.48.9
       - pyproject-hooks==1.0.0
+      - pyright==1.1.368
+      - pysbd==0.3.4
+      - pysocks==1.7.1
       - pytesseract==0.3.10
       - pytest==8.1.1
       - pytest-asyncio==0.21.1
@@ -282,6 +319,7 @@ dependencies:
       - python-docx==1.1.0
       - python-dotenv==1.0.0
       - python-json-logger==2.0.7
+      - pytube==15.0.0
       - pytz==2024.1
       - pyyaml==6.0.1
       - pyzmq==26.0.2
@@ -294,7 +332,7 @@ dependencies:
       - ratelimiter==1.2.0.post0
       - redis==5.0.3
       - referencing==0.34.0
-      - regex==2024.4.16
+      - regex==2023.12.25
       - requests==2.31.0
       - requests-file==2.0.0
       - requests-oauthlib==1.3.1
@@ -305,16 +343,21 @@ dependencies:
       - rpds-py==0.18.0
       - rsa==4.9
       - ruff==0.2.2
+      - s3transfer==0.10.1
       - safetensors==0.4.3
+      - schema==0.7.7
       - scikit-learn==1.4.2
       - scipy==1.13.0
       - scrapy==2.11.1
+      - selenium==4.22.0
       - semver==3.0.2
       - send2trash==1.8.3
       - sentence-transformers==2.5.1
       - service-identity==24.1.0
       - sgmllib3k==1.0.0
+      - shapely==2.0.4
       - six==1.16.0
+      - smmap==5.0.1
       - sniffio==1.3.1
       - snowballstemmer==2.2.0
       - sortedcontainers==2.4.0
@@ -327,7 +370,7 @@ dependencies:
       - sphinxcontrib-qthelp==1.0.7
       - sphinxcontrib-serializinghtml==1.1.10
       - spinners==0.0.24
-      - sqlalchemy==2.0.24
+      - sqlalchemy==2.0.31
       - sqlalchemy-json==0.7.0
       - sqlalchemy-utils==0.41.1
       - stack-data==0.2.0
@@ -339,7 +382,7 @@ dependencies:
       - terminado==0.18.1
       - thefuzz==0.20.0
       - threadpoolctl==3.4.0
-      - tiktoken==0.5.2
+      - tiktoken==0.7.0
       - tinycss2==1.2.1
       - tinysegmenter==0.3
       - tld==0.13
@@ -354,6 +397,8 @@ dependencies:
       - trafilatura==1.8.1
       - traitlets==5.14.3
       - transformers==4.40.1
+      - trio==0.25.1
+      - trio-websocket==0.11.1
       - twisted==24.3.0
       - typer==0.9.4
       - types-cffi==1.16.0.20240331
@@ -378,12 +423,15 @@ dependencies:
       - wcwidth==0.2.13
       - webcolors==1.13
       - webencodings==0.5.1
-      - websocket-client==1.7.0
+      - websocket-client==1.8.0
       - websockets==12.0
       - wget==3.2
       - widgetsnbextension==4.0.10
       - wikipedia==1.4.0
       - wrapt==1.16.0
+      - wsproto==1.2.0
       - yarl==1.9.4
+      - youtube-transcript-api==0.6.2
+      - yt-dlp==2023.12.30
       - zipp==3.18.1
       - zope-interface==6.3
