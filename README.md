@@ -119,11 +119,14 @@ pkill ollama
 
 #### A
  * [Agentchat RetrieveChat](https://github.com/microsoft/autogen/blob/main/notebook/agentchat_RetrieveChat.ipynb)
- * [Autogen ollama](https://github.com/ScottLL/autogen-ollama/blob/main/entrypoint.sh)
+ * [Autogen Ollama](https://github.com/ScottLL/autogen-ollama/blob/main/entrypoint.sh)
  * [Chromadb](https://realpython.com/chromadb-vector-database/)
  * [Langroid](https://github.com/langroid/langroid)
  * [Two Agent Debates with Tools](https://github.com/langchain-ai/langchain/blob/master/cookbook/two_agent_debate_tools.ipynb)
  * [LangChain AI Image Recognition](https://github.com/sugarforever/LangChain-Tutorials/blob/main/LangChain_AI_Image_Recognition.ipynb)
+ * [Crewai Framework](https://github.com/joaomdmoura/crewAI)
+ * [AI Crew for Jobs Postings](https://github.com/joaomdmoura/crewAI-examples/tree/main/job-posting)
+
 
 
 #### B
