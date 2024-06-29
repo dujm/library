@@ -304,7 +304,7 @@ pytube==15.0.0
 pytz==2024.1
 PyYAML==6.0.1
 pyzmq==26.0.2
-qdrant-client==1.8.2
+qdrant-client==1.9.0
 qtconsole==5.5.1
 QtPy==2.4.1
 queuelib==1.6.2
