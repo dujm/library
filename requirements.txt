@@ -176,7 +176,7 @@ langcodes==3.3.0
 langroid==0.1.225
 langsmith==0.1.49
 litellm==1.40.16
-llama-index==0.9.48
+llama-index==0.10.13
 llama-index-core==0.10.30
 llama-index-embeddings-huggingface==0.1.4
 llama-index-llms-anyscale==0.1.3
